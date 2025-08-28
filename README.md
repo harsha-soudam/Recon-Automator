@@ -52,19 +52,19 @@ sudo apt install subfinder nmap -y
 # Example:
 
 ```
-./recon.sh hackerone.com
+./recon.sh example.com
 ```
 
 📸 Demo
 
 ```
-[*] Running Subfinder on hackerone.com...
-[*] Subdomains saved to hackerone.com_recon/subdomains.txt
+[*] Running Subfinder on example.com...
+[*] Subdomains saved to example.com_recon/subdomains.txt
 [*] Running Nmap scans on discovered subdomains...
 [*] Scans completed!
-    Subdomains  -> hackerone.com_recon/subdomains.txt
-    Full Scan   -> hackerone.com_recon/nmap_full.txt
-    Vuln Scan   -> hackerone.com_recon/nmap_vuln.txt
+    Subdomains  -> example.com_recon/subdomains.txt
+    Full Scan   -> example.com_recon/nmap_full.txt
+    Vuln Scan   -> example.com_recon/nmap_vuln.txt
 ```
 
 ⚠️ Disclaimer
