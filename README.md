@@ -3,12 +3,16 @@ A simple Bash script to automate passive & active reconnaissance using Subfinder
 and Nmap. This tool is designed for cybersecurity students and researchers to run recon in their own labs for practice, not against external systems without permission.
 
 # ⚡ Features
+
 > Runs Subfinder to collect subdomains for a given domain.
+
 > Uses Nmap to scan all subdomains for:
   ->Open ports & services (-sV)
   ->Full port scan (-p-)
   ->Vulnerability detection using NSE scripts (--script vuln)
+
 > Organizes results in a clean folder structure per target.
+
 > One command → complete recon.
 
 📂 Output Structure
