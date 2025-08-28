@@ -7,8 +7,11 @@ and Nmap. This tool is designed for cybersecurity students and researchers to ru
 > Runs Subfinder to collect subdomains for a given domain.
 
 > Uses Nmap to scan all subdomains for:
+
   ->Open ports & services (-sV)
+  
   ->Full port scan (-p-)
+  
   ->Vulnerability detection using NSE scripts (--script vuln)
 
 > Organizes results in a clean folder structure per target.
@@ -29,9 +32,9 @@ example.com_recon/
 
 Make sure you have the following installed:
 
-Subfinder
+1. Subfinder
 
-Nmap
+2. Nmap
 
 On Kali Linux:
 
