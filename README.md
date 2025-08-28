@@ -25,3 +25,50 @@ example.com_recon/
  └── nmap_vuln.txt     # Nmap vuln script results
 ```
 
+🚀 Installation
+
+Make sure you have the following installed:
+
+Subfinder
+
+Nmap
+
+On Kali Linux:
+
+```
+sudo apt update
+sudo apt install subfinder nmap -y
+```
+
+🛠️ Usage
+
+```
+./recon.sh <domain>
+```
+
+# Example:
+
+```
+./recon.sh hackerone.com
+```
+
+📸 Demo
+
+```
+[*] Running Subfinder on hackerone.com...
+[*] Subdomains saved to hackerone.com_recon/subdomains.txt
+[*] Running Nmap scans on discovered subdomains...
+[*] Scans completed!
+    Subdomains  -> hackerone.com_recon/subdomains.txt
+    Full Scan   -> hackerone.com_recon/nmap_full.txt
+    Vuln Scan   -> hackerone.com_recon/nmap_vuln.txt
+```
+
+⚠️ Disclaimer
+
+This project is for educational use only.
+Do NOT use it against systems you don’t own or have explicit permission to test. Unauthorized scanning may be illegal.
+
+🧑‍💻 Author
+
+Harshavardhan
